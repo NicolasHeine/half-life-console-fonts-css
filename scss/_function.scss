@@ -1,0 +1,15 @@
+@function makeboxshadow($matrice){
+	$val: 0px 0px black;
+	@for $h from 1 through length($matrice) {
+		@for $w from 1 through length(nth($matrice, $h)) {
+			@if nth(nth($matrice, $h), $w) == 1{
+				$val: #{$val}, calc(#{$w - 1} * var(--width)) calc(#{$h - 1} * var(--height)) var(--color);
+			}
+		}
+	}
+	@return $val;
+}
+
+@mixin box-shadow($matrice){
+	box-shadow: makeboxshadow($matrice);
+}

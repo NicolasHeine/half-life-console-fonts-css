@@ -1,0 +1,270 @@
+.h-l2\:{
+	&\.{
+		width: calc(3 * var(--width));
+		&:before{
+			background: var(--color);
+			top: calc(6 * var(--height));
+			@include box-shadow((
+			   (1, 1, 1),
+			   (1, 0, 1),
+			   (1, 1, 1),
+			));
+		}
+	}
+	&\:{
+		width: calc(3 * var(--width));
+		&:before{
+			background: var(--color);
+			top: calc(2 * var(--height));
+			@include box-shadow((
+			   (1, 1, 1),
+			   (1, 0, 1),
+			   (1, 1, 1),
+			   (1, 1, 1),
+			   (1, 0, 1),
+			   (1, 1, 1),
+			));
+		}
+	}
+	&\,{
+		width: calc(3 * var(--width));
+		&:before{
+			background: var(--color);
+			top: calc(6 * var(--height));
+			@include box-shadow((
+			   (1, 1, 1),
+			   (1, 0, 1),
+			   (1, 0, 1),
+			   (1, 1, 1),
+			));
+		}
+	}
+	&\;{
+		width: calc(4 * var(--width));
+		&:before{
+			top: calc(2 * var(--height));
+			@include box-shadow((
+			   (0, 1, 1, 1),
+			   (0, 1, 0, 1),
+			   (0, 1, 1, 1),
+			   (0, 1, 1, 1),
+			   (1, 1, 0, 1),
+			   (1, 0, 1, 1),
+			   (1, 1, 1, 0),
+			));
+		}
+	}
+	&\'{
+		width: calc(4 * var(--width));
+		&:before{
+			@include box-shadow((
+			   (0, 1, 1, 1),
+			   (1, 1, 0, 1),
+			   (1, 0, 1, 1),
+			   (1, 1, 1, 0),
+			   (0, 0, 0, 0),
+			   (0, 0, 0, 0),
+			   (0, 0, 0, 0),
+			   (0, 0, 0, 0),
+			   (0, 0, 0, 0),
+			));
+		}
+	}
+	&\"{
+		width: calc(5 * var(--width));
+		&:before{
+			background: var(--color);
+			top: var(--height);
+			@include box-shadow((
+			   (1, 1, 1, 1, 1),
+			   (1, 0, 1, 0, 1),
+			   (1, 0, 1, 0, 1),
+			   (1, 1, 1, 1, 1),
+			   (0, 0, 0, 0, 0),
+			   (0, 0, 0, 0, 0),
+			   (0, 0, 0, 0, 0),
+			   (0, 0, 0, 0, 0),
+			));
+		}
+	}
+	&\({
+		width: calc(4 * var(--width));
+		&:before{
+			@include box-shadow((
+			   (0, 1, 1, 1),
+			   (1, 1, 0, 1),
+			   (1, 0, 1, 1),
+			   (1, 0, 1, 0),
+			   (1, 0, 1, 0),
+			   (1, 0, 1, 0),
+			   (1, 0, 1, 0),
+			   (1, 0, 1, 1),
+			   (1, 1, 0, 1),
+			   (0, 1, 1, 1),
+			));
+		}
+	}
+	&\){
+		width: calc(4 * var(--width));
+		&:before{
+			background: var(--color);
+			@include box-shadow((
+			   (1, 1, 1, 0),
+			   (1, 0, 1, 1),
+			   (1, 1, 0, 1),
+			   (0, 1, 0, 1),
+			   (0, 1, 0, 1),
+			   (0, 1, 0, 1),
+			   (0, 1, 0, 1),
+			   (1, 1, 0, 1),
+			   (1, 0, 1, 1),
+			   (1, 1, 1, 0),
+			));
+		}
+	}
+	&\!{
+		width: calc(3 * var(--width));
+		&:before{
+			background: var(--color);
+			top: var(--height);
+			@include box-shadow((
+			   (1, 1, 1),
+			   (1, 0, 1),
+			   (1, 0, 1),
+			   (1, 0, 1),
+			   (1, 0, 1),
+			   (1, 1, 1),
+			   (1, 0, 1),
+			   (1, 1, 1),
+			));
+		}
+	}
+	&\?{
+		width: calc(5 * var(--width));
+		&:before{
+			background: var(--color);
+			top: var(--height);
+			@include box-shadow((
+			   (1, 1, 1, 1, 1),
+			   (1, 0, 0, 0, 1),
+			   (1, 1, 1, 0, 1),
+			   (0, 1, 0, 0, 1),
+			   (0, 1, 0, 1, 1),
+			   (0, 1, 1, 1, 0),
+			   (0, 1, 0, 1, 0),
+			   (0, 1, 1, 1, 0),
+			));
+		}
+	}
+	&\+{
+		width: calc(7 * var(--width));
+		&:before{
+			top: calc(2 * var(--height));
+			@include box-shadow((
+			   (0, 0, 1, 1, 1, 0, 0),
+			   (0, 0, 1, 0, 1, 0, 0),
+			   (1, 1, 1, 0, 1, 1, 1),
+			   (1, 0, 0, 0, 0, 0, 1),
+			   (1, 1, 1, 0, 1, 1, 1),
+			   (0, 0, 1, 0, 1, 0, 0),
+			   (0, 0, 1, 1, 1, 0, 0),
+			));
+		}
+	}
+	&\-{
+		width: calc(8 * var(--width));
+		&:before{
+			background: var(--color);
+			top: calc(4 * var(--height));
+			@include box-shadow((
+			   (1, 1, 1, 1, 1, 1, 1, 1),
+			   (1, 0, 0, 0, 0, 0, 0, 1),
+			   (1, 1, 1, 1, 1, 1, 1, 1),
+			   (0, 0, 0, 0, 0, 0, 0, 0),
+			   (0, 0, 0, 0, 0, 0, 0, 0),
+			));
+		}
+	}
+	&\*{
+		width: calc(6 * var(--width));
+		&:before{
+			top: var(--height);
+			@include box-shadow((
+			   (0, 1, 1, 1, 1, 0),
+			   (0, 1, 0, 1, 1, 1),
+			   (1, 1, 0, 0, 0, 1),
+			   (1, 0, 0, 0, 1, 1),
+			   (1, 1, 1, 0, 1, 0),
+			   (0, 0, 1, 1, 1, 0),
+			   (0, 0, 0, 0, 0, 0),
+			   (0, 0, 0, 0, 0, 0),
+			));
+		}
+	}
+	&\/{
+		width: calc(7 * var(--width));
+		&:before{
+			top: calc(2 * var(--height));
+			@include box-shadow((
+			   (0, 0, 0, 0, 1, 1, 1),
+			   (0, 0, 0, 1, 1, 0, 1),
+			   (0, 0, 1, 1, 0, 1, 1),
+			   (0, 1, 1, 0, 1, 1, 0),
+			   (1, 1, 0, 1, 1, 0, 0),
+			   (1, 0, 1, 1, 0, 0, 0),
+			   (1, 1, 1, 0, 0, 0, 0),
+			));
+		}
+	}
+	&\={
+		width: calc(6 * var(--width));
+		&:before{
+			background: var(--color);
+			top: calc(3 * var(--height));
+			@include box-shadow((
+			   (1, 1, 1, 1, 1, 1),
+			   (1, 0, 0, 0, 0, 1),
+			   (1, 1, 1, 1, 1, 1),
+			   (1, 0, 0, 0, 0, 1),
+			   (1, 1, 1, 1, 1, 1),
+			   (0, 0, 0, 0, 0, 0),
+			));
+		}
+	}
+	&\[{
+		width: calc(4 * var(--width));
+		&:before{
+			background: var(--color);
+			@include box-shadow((
+			   (1, 1, 1, 1),
+			   (1, 0, 0, 1),
+			   (1, 0, 1, 1),
+			   (1, 0, 1, 0),
+			   (1, 0, 1, 0),
+			   (1, 0, 1, 0),
+			   (1, 0, 1, 0),
+			   (1, 0, 1, 1),
+			   (1, 0, 0, 1),
+			   (1, 1, 1, 1),
+			));
+		}
+	}
+	&\]{
+		width: calc(4 * var(--width));
+		&:before{
+			background: var(--color);
+			@include box-shadow((
+			   (1, 1, 1, 1),
+			   (1, 0, 0, 1),
+			   (1, 1, 0, 1),
+			   (0, 1, 0, 1),
+			   (0, 1, 0, 1),
+			   (0, 1, 0, 1),
+			   (0, 1, 0, 1),
+			   (1, 1, 0, 1),
+			   (1, 0, 0, 1),
+			   (1, 1, 1, 1),
+			));
+		}
+	}
+}
