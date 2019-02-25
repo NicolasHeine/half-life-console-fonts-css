@@ -2,8 +2,8 @@
 	--color: black;
 	--height: 8px;
 	--width: 5px;
-	--word-spacing: calc(2 * var(--height));
-	--letter-spacing: calc(var(--height) / 2);
+	--word-spacing: calc(2 * var(--width));
+	--letter-spacing: calc(var(--width) / 2);
 	--line-space: calc(3 * var(--height))
 }
 
