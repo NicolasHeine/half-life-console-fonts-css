@@ -2,9 +2,25 @@
 
 > A CSS project by [Nicolas Heine](http:www.nicolasheine.fr)
 
-## I ❤️ CSS, you can follow me on [Codepen](https://codepen.io/nicolasheine/)
+I ❤️ CSS, you can follow me on [Codepen](https://codepen.io/nicolasheine/)
 
 > Highly inspired by [CSSans Pro](https://github.com/ZeroSpree/CSSans.Pro) (by [Andronache Izabela](https://www.instagram.com/izadraws/) and [Codrin Pavel](https://twitter.com/zerospree))
+
+## Table of Contents
+
+* [Overview](#overview) - all characters & CSS classes
+* [Quick start - JSless](#quick-start-javascriptless)
+	* [How to use](#htu-1)
+* [Quick start with Javascript](#quick-start---javascript-version) - Let JS do the writing
+	* [How to use](#htu-2)
+* [Options](#options)
+  * [Colors](#colors)
+  * [Dimensions](#dimensions)
+  * [Word spacing](#word-spacing)
+  * [Letter spacing](#letter-spacing)
+  * [Line spacing](#line-height)
+  * [Align text](#align-text)
+* [Accessibility](#accessibility) - Don't forget it
 
 ## Overview
 
@@ -18,4 +34,114 @@
 * 0 - 9 `<b class="h-l2:NUMBER"></b>`
 
 #### Symbols
-* .:,';"()!?+-*/=[] `<b class="h-l2:CHARACTER"></b>`
+* .:,';()!?+-\*/=[] `<b class="h-l2:CHARACTER"></b>`
+
+## Quick start - JSless
+
+Download the minify version of CSS of the font you want from the repo:
+* [`/dist/css/`](https://github.com/NicolasHeine/Half-Life-Console-Fonts-CSS/tree/master/dist/css)
+
+### How to use
+
+```html
+<div class="h-l1">
+	<span class="h-l1__accessible">Hello World!</span>
+	<span class="h-l1__word">
+		<b class="h-l1:H"></b>
+		<b class="h-l1:e"></b>
+		<b class="h-l1:l"></b>
+		<b class="h-l1:l"></b>
+		<b class="h-l1:o"></b>
+	</span>
+	<span class="h-l1__word">
+		<b class="h-l1:W"></b>
+		<b class="h-l1:o"></b>
+		<b class="h-l1:r"></b>
+		<b class="h-l1:l"></b>
+		<b class="h-l1:d"></b>
+		<b class="h-l1:!"></b>
+	</span>
+</div>
+```
+
+> If you want to use the font 2, just replace 'h-l1' by 'h-l2'
+
+## Quick start with Javascript
+
+Download the minify version of CSS (like we saw [before](#quick-start-javascriptless)) + download the minify version of Javascript
+* [`/dist/js/`](https://github.com/NicolasHeine/Half-Life-Console-Fonts-CSS/tree/master/dist/js)
+
+> Like for the CSS, choose the font you want!
+
+### How to use
+
+Use the main class of the font to choose which text should be transform
+```html
+<div class="h-l1">Hello World!</div>
+```
+
+The script will automaticly transform it like we saw [before](#quick-start-javascriptless)
+
+## Options
+
+Each fonts have multiple settings
+
+> You can change the prefix from `h-l1` to `h-l2` for the second font
+
+### Colors
+```
+	--h-l1-color: black;
+```
+
+### Dimensions
+```
+	--h-l1-height: 8px;
+	--h-l1-width: 5px;
+```
+
+> This is the size of 1 tile of background-shadow
+
+### Word spacing
+```
+	--h-l1-word-spacing: calc(2 * var(--h-l1-width));
+```
+
+### Letter spacing
+```
+	--h-l1-letter-spacing: calc(var(--h-l1-width) / 2);
+```
+
+### Line spacing
+```
+	--h-l1-line-space: calc(3 * var(--h-l1-height));
+```
+
+### Align text
+You can use `text-align` for left/center/right.
+
+There is some class to help you if you want
+```
+<div class="h-l1 h-l1--left">
+	<span class="h-l1__word">...</span>
+</div>
+
+<div class="h-l1 h-l1--center">
+	<span class="h-l1__word">...</span>
+</div>
+
+<div class="h-l1 h-l1--right">
+	<span class="h-l1__word">...</span>
+</div>
+```
+
+> As usual, change `h-l1` to `h-l2` for the second font.
+
+## Accessibility
+> If you use the javascript version, this is automatically done
+
+Accessibility is important, you always need a good SEO or a good screen reader support.
+
+When you use these CSS fonts, please don't forget to add the accessible class to your text
+```
+<span class="h-l1__accessible">I am readable!</span>
+``` 
