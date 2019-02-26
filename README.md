@@ -9,10 +9,8 @@ I ❤️ CSS, you can follow me on [Codepen](https://codepen.io/nicolasheine/)
 ## Table of Contents
 
 * [Overview](#overview) - all characters & CSS classes
-* [Quick start - JSless](#quick-start-javascriptless)
-	* [How to use](#htu-1)
-* [Quick start with Javascript](#quick-start---javascript-version) - Let JS do the writing
-	* [How to use](#htu-2)
+* [Quick start - JSless](#quick-start---jsless)
+* [Quick start with Javascript](#quick-start-with-javascript) - Let JS do the writing
 * [Options](#options)
   * [Colors](#colors)
   * [Dimensions](#dimensions)
@@ -45,22 +43,22 @@ Download the minify version of CSS of the font you want from the repo:
 
 ```html
 <div class="h-l1">
-	<span class="h-l1__accessible">Hello World!</span>
-	<span class="h-l1__word">
-		<b class="h-l1:H"></b>
-		<b class="h-l1:e"></b>
-		<b class="h-l1:l"></b>
-		<b class="h-l1:l"></b>
-		<b class="h-l1:o"></b>
-	</span>
-	<span class="h-l1__word">
-		<b class="h-l1:W"></b>
-		<b class="h-l1:o"></b>
-		<b class="h-l1:r"></b>
-		<b class="h-l1:l"></b>
-		<b class="h-l1:d"></b>
-		<b class="h-l1:!"></b>
-	</span>
+  <span class="h-l1__accessible">Hello World!</span>
+  <span class="h-l1__word">
+    <b class="h-l1:H"></b>
+    <b class="h-l1:e"></b>
+    <b class="h-l1:l"></b>
+    <b class="h-l1:l"></b>
+    <b class="h-l1:o"></b>
+  </span>
+  <span class="h-l1__word">
+    <b class="h-l1:W"></b>
+    <b class="h-l1:o"></b>
+    <b class="h-l1:r"></b>
+    <b class="h-l1:l"></b>
+    <b class="h-l1:d"></b>
+    <b class="h-l1:!"></b>
+  </span>
 </div>
 ```
 
@@ -68,7 +66,7 @@ Download the minify version of CSS of the font you want from the repo:
 
 ## Quick start with Javascript
 
-Download the minify version of CSS (like we saw [before](#quick-start-javascriptless)) + download the minify version of Javascript
+Download the minify version of CSS (like we saw [before](#quick-start---jsless)) + download the minify version of Javascript
 * [`/dist/js/`](https://github.com/NicolasHeine/Half-Life-Console-Fonts-CSS/tree/master/dist/js)
 
 > Like for the CSS, choose the font you want!
@@ -80,7 +78,7 @@ Use the main class of the font to choose which text should be transform
 <div class="h-l1">Hello World!</div>
 ```
 
-The script will automaticly transform it like we saw [before](#quick-start-javascriptless)
+The script will automaticly transform it like we saw [before](#quick-start---jsless)
 
 ## Options
 
@@ -90,30 +88,30 @@ Each fonts have multiple settings
 
 ### Colors
 ```
-	--h-l1-color: black;
+--h-l1-color: black;
 ```
 
 ### Dimensions
 ```
-	--h-l1-height: 8px;
-	--h-l1-width: 5px;
+--h-l1-height: 8px;
+--h-l1-width: 5px;
 ```
 
 > This is the size of 1 tile of background-shadow
 
 ### Word spacing
 ```
-	--h-l1-word-spacing: calc(2 * var(--h-l1-width));
+--h-l1-word-spacing: calc(2 * var(--h-l1-width));
 ```
 
 ### Letter spacing
 ```
-	--h-l1-letter-spacing: calc(var(--h-l1-width) / 2);
+--h-l1-letter-spacing: calc(var(--h-l1-width) / 2);
 ```
 
 ### Line spacing
 ```
-	--h-l1-line-space: calc(3 * var(--h-l1-height));
+--h-l1-line-space: calc(3 * var(--h-l1-height));
 ```
 
 ### Align text
@@ -122,15 +120,15 @@ You can use `text-align` for left/center/right.
 There is some class to help you if you want
 ```
 <div class="h-l1 h-l1--left">
-	<span class="h-l1__word">...</span>
+  <span class="h-l1__word">...</span>
 </div>
 
 <div class="h-l1 h-l1--center">
-	<span class="h-l1__word">...</span>
+  <span class="h-l1__word">...</span>
 </div>
 
 <div class="h-l1 h-l1--right">
-	<span class="h-l1__word">...</span>
+  <span class="h-l1__word">...</span>
 </div>
 ```
 
