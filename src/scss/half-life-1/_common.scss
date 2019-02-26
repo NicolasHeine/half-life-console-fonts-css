@@ -4,7 +4,7 @@
 	--h-l1-width: 5px;
 	--h-l1-word-spacing: calc(2 * var(--h-l1-width));
 	--h-l1-letter-spacing: calc(var(--h-l1-width) / 2);
-	--h-l1-line-space: calc(3 * var(--h-l1-height))
+	--h-l1-line-space: calc(3 * var(--h-l1-height));
 }
 
 [class^="h-l1:"]{
