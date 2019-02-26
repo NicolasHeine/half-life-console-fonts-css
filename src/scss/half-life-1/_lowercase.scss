@@ -1,9 +1,9 @@
 .h-l1\:{
 	&a{
-		width: calc(4 * var(--width));
+		width: calc(4 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
-			top: calc(2 * var(--height));
+			background: var(--h-l1-color);
+			top: calc(2 * var(--h-l1-height));
 			@include box-shadow((
 			   (1, 1, 1, 0),
 			   (0, 0, 0, 1),
@@ -14,9 +14,9 @@
 		}
 	}
 	&b{
-		width: calc(4 * var(--width));
+		width: calc(4 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
+			background: var(--h-l1-color);
 			@include box-shadow((
 			   (1, 0, 0, 0),
 			   (1, 0, 0, 0),
@@ -29,9 +29,9 @@
 		}
 	}
 	&c{
-		width: calc(3 * var(--width));
+		width: calc(3 * var(--h-l1-width));
 		&:before{
-			top: calc(2 * var(--height));
+			top: calc(2 * var(--h-l1-height));
 			@include box-shadow((
 			   (0, 1, 1),
 			   (1, 0, 0),
@@ -42,7 +42,7 @@
 		}
 	}
 	&d{
-		width: calc(4 * var(--width));
+		width: calc(4 * var(--h-l1-width));
 		&:before{
 			@include box-shadow((
 			   (0, 0, 0, 1),
@@ -56,9 +56,9 @@
 		}
 	}
 	&e{
-		width: calc(4 * var(--width));
+		width: calc(4 * var(--h-l1-width));
 		&:before{
-			top: calc(2 * var(--height));
+			top: calc(2 * var(--h-l1-height));
 			@include box-shadow((
 			   (0, 1, 1, 0),
 			   (1, 0, 0, 1),
@@ -69,7 +69,7 @@
 		}
 	}
 	&f{
-		width: calc(4 * var(--width));
+		width: calc(4 * var(--h-l1-width));
 		&:before{
 			@include box-shadow((
 			   (0, 0, 1, 1),
@@ -83,9 +83,9 @@
 		}
 	}
 	&g{
-		width: calc(4 * var(--width));
+		width: calc(4 * var(--h-l1-width));
 		&:before{
-			top: calc(2 * var(--height));
+			top: calc(2 * var(--h-l1-height));
 			@include box-shadow((
 			   (0, 1, 1, 1),
 			   (1, 0, 0, 1),
@@ -98,9 +98,9 @@
 		}
 	}
 	&h{
-		width: calc(4 * var(--width));
+		width: calc(4 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
+			background: var(--h-l1-color);
 			@include box-shadow((
 			   (1, 0, 0, 0),
 			   (1, 0, 0, 0),
@@ -113,7 +113,7 @@
 		}
 	}
 	&i{
-		width: calc(2 * var(--width));
+		width: calc(2 * var(--h-l1-width));
 		&:before{
 			@include box-shadow((
 			   (0, 1),
@@ -127,7 +127,7 @@
 		}
 	}
 	&j{
-		width: calc(2 * var(--width));
+		width: calc(2 * var(--h-l1-width));
 		&:before{
 			@include box-shadow((
 			   (0, 1),
@@ -143,9 +143,9 @@
 		}
 	}
 	&k{
-		width: calc(4 * var(--width));
+		width: calc(4 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
+			background: var(--h-l1-color);
 			@include box-shadow((
 			   (1, 0, 0, 0),
 			   (1, 0, 0, 0),
@@ -158,9 +158,9 @@
 		}
 	}
 	&l{
-		width: calc(1 * var(--width));
+		width: calc(1 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
+			background: var(--h-l1-color);
 			@include box-shadow((
 			   (1),
 			   (1),
@@ -173,10 +173,10 @@
 		}
 	}
 	&m{
-		width: calc(7 * var(--width));
+		width: calc(7 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
-			top: calc(2 * var(--height));
+			background: var(--h-l1-color);
+			top: calc(2 * var(--h-l1-height));
 			@include box-shadow((
 			   (1, 1, 1, 1, 1, 1, 0),
 			   (1, 0, 0, 1, 0, 0, 1),
@@ -187,10 +187,10 @@
 		}
 	}
 	&n{
-		width: calc(4 * var(--width));
+		width: calc(4 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
-			top: calc(2 * var(--height));
+			background: var(--h-l1-color);
+			top: calc(2 * var(--h-l1-height));
 			@include box-shadow((
 			   (1, 1, 1, 0),
 			   (1, 0, 0, 1),
@@ -201,9 +201,9 @@
 		}
 	}
 	&o{
-		width: calc(4 * var(--width));
+		width: calc(4 * var(--h-l1-width));
 		&:before{
-			top: calc(2 * var(--height));
+			top: calc(2 * var(--h-l1-height));
 			@include box-shadow((
 			   (0, 1, 1, 0),
 			   (1, 0, 0, 1),
@@ -214,10 +214,10 @@
 		}
 	}
 	&p{
-		width: calc(4 * var(--width));
+		width: calc(4 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
-			top: calc(2 * var(--height));
+			background: var(--h-l1-color);
+			top: calc(2 * var(--h-l1-height));
 			@include box-shadow((
 			   (1, 1, 1, 0),
 			   (1, 0, 0, 1),
@@ -230,9 +230,9 @@
 		}
 	}
 	&q{
-		width: calc(4 * var(--width));
+		width: calc(4 * var(--h-l1-width));
 		&:before{
-			top: calc(2 * var(--height));
+			top: calc(2 * var(--h-l1-height));
 			@include box-shadow((
 			   (0, 1, 1, 1),
 			   (1, 0, 0, 1),
@@ -245,10 +245,10 @@
 		}
 	}
 	&r{
-		width: calc(3 * var(--width));
+		width: calc(3 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
-			top: calc(2 * var(--height));
+			background: var(--h-l1-color);
+			top: calc(2 * var(--h-l1-height));
 			@include box-shadow((
 			   (1, 1, 1),
 			   (1, 0, 0),
@@ -259,9 +259,9 @@
 		}
 	}
 	&s{
-		width: calc(3 * var(--width));
+		width: calc(3 * var(--h-l1-width));
 		&:before{
-			top: calc(2 * var(--height));
+			top: calc(2 * var(--h-l1-height));
 			@include box-shadow((
 			   (0, 1, 1),
 			   (1, 0, 0),
@@ -272,9 +272,9 @@
 		}
 	}
 	&t{
-		width: calc(3 * var(--width));
+		width: calc(3 * var(--h-l1-width));
 		&:before{
-			top: var(--height);
+			top: var(--h-l1-height);
 			@include box-shadow((
 			   (0, 1, 0),
 			   (1, 1, 1),
@@ -286,10 +286,10 @@
 		}
 	}
 	&u{
-		width: calc(4 * var(--width));
+		width: calc(4 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
-			top: calc(2 * var(--height));
+			background: var(--h-l1-color);
+			top: calc(2 * var(--h-l1-height));
 			@include box-shadow((
 			   (1, 0, 0, 1),
 			   (1, 0, 0, 1),
@@ -300,10 +300,10 @@
 		}
 	}
 	&v{
-		width: calc(5 * var(--width));
+		width: calc(5 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
-			top: calc(2 * var(--height));
+			background: var(--h-l1-color);
+			top: calc(2 * var(--h-l1-height));
 			@include box-shadow((
 			   (1, 0, 0, 0, 1),
 			   (0, 1, 0, 1, 0),
@@ -314,10 +314,10 @@
 		}
 	}
 	&w{
-		width: calc(7 * var(--width));
+		width: calc(7 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
-			top: calc(2 * var(--height));
+			background: var(--h-l1-color);
+			top: calc(2 * var(--h-l1-height));
 			@include box-shadow((
 			   (1, 0, 0, 1, 0, 0, 1),
 			   (0, 1, 0, 1, 0, 1, 0),
@@ -328,10 +328,10 @@
 		}
 	}
 	&x{
-		width: calc(5 * var(--width));
+		width: calc(5 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
-			top: calc(2 * var(--height));
+			background: var(--h-l1-color);
+			top: calc(2 * var(--h-l1-height));
 			@include box-shadow((
 			   (1, 0, 0, 0, 1),
 			   (0, 1, 0, 1, 0),
@@ -342,10 +342,10 @@
 		}
 	}
 	&y{
-		width: calc(4 * var(--width));
+		width: calc(4 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
-			top: calc(2 * var(--height));
+			background: var(--h-l1-color);
+			top: calc(2 * var(--h-l1-height));
 			@include box-shadow((
 			   (1, 0, 0, 1),
 			   (1, 0, 0, 1),
@@ -358,10 +358,10 @@
 		}
 	}
 	&z{
-		width: calc(4 * var(--width));
+		width: calc(4 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
-			top: calc(2 * var(--height));
+			background: var(--h-l1-color);
+			top: calc(2 * var(--h-l1-height));
 			@include box-shadow((
 			   (1, 1, 1, 1),
 			   (0, 0, 1, 0),

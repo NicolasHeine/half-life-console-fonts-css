@@ -1,27 +1,27 @@
 :root{
-	--color: black;
-	--height: 8px;
-	--width: 5px;
-	--word-spacing: calc(2 * var(--width));
-	--letter-spacing: calc(var(--width) / 2);
-	--line-space: calc(3 * var(--height))
+	--h-l1-color: black;
+	--h-l1-height: 8px;
+	--h-l1-width: 5px;
+	--h-l1-word-spacing: calc(2 * var(--h-l1-width));
+	--h-l1-letter-spacing: calc(var(--h-l1-width) / 2);
+	--h-l1-line-space: calc(3 * var(--h-l1-height))
 }
 
 [class^="h-l1:"]{
 	display: inline-block;
-	height: calc(7 * var(--height));
-	margin-bottom: var(--line-space);
+	height: calc(7 * var(--h-l1-height));
+	margin-bottom: var(--h-l1-line-space);
 	position: relative;
 	&:before{
 		content: '';
-		height: var(--height);
+		height: var(--h-l1-height);
 		left: 0;
 		position: absolute;
 		top: 0;
-		width: var(--width);
+		width: var(--h-l1-width);
 	}
 	&:not(:last-child){
-		margin-right: var(--letter-spacing);
+		margin-right: var(--h-l1-letter-spacing);
 	}
 }
 
@@ -34,7 +34,7 @@
 		font-size: 0;
 		line-height: 0;
 		&:not(:last-child){
-			margin-right: var(--word-spacing);
+			margin-right: var(--h-l1-word-spacing);
 		}
 	}
 	&__accessible{

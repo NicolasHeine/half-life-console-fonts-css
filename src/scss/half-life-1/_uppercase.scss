@@ -1,8 +1,8 @@
 .h-l1\:{
 	&A{
-		width: calc(5 * var(--width));
+		width: calc(5 * var(--h-l1-width));
 		&:before{
-			top: var(--height);
+			top: var(--h-l1-height);
 			@include box-shadow((
 			   (0, 0, 1, 0, 0),
 			   (0, 1, 0, 1, 0),
@@ -14,10 +14,10 @@
 		}
 	}
 	&B{
-		width: calc(5 * var(--width));
+		width: calc(5 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
-			top: var(--height);
+			background: var(--h-l1-color);
+			top: var(--h-l1-height);
 			@include box-shadow((
 			   (1, 1, 1, 1, 0),
 			   (1, 0, 0, 0, 1),
@@ -29,9 +29,9 @@
 		}
 	}
 	&C{
-		width: calc(4 * var(--width));
+		width: calc(4 * var(--h-l1-width));
 		&:before{
-			top: var(--height);
+			top: var(--h-l1-height);
 			@include box-shadow((
 			   (0, 1, 1, 1),
 			   (1, 0, 0, 0),
@@ -43,10 +43,10 @@
 		}
 	}
 	&D{
-		width: calc(5 * var(--width));
+		width: calc(5 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
-			top: var(--height);
+			background: var(--h-l1-color);
+			top: var(--h-l1-height);
 			@include box-shadow((
 			   (1, 1, 1, 1, 0),
 			   (1, 0, 0, 0, 1),
@@ -58,10 +58,10 @@
 		}
 	}
 	&E{
-		width: calc(4 * var(--width));
+		width: calc(4 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
-			top: var(--height);
+			background: var(--h-l1-color);
+			top: var(--h-l1-height);
 			@include box-shadow((
 			   (1, 1, 1, 1),
 			   (1, 0, 0, 0),
@@ -73,10 +73,10 @@
 		}
 	}
 	&F{
-		width: calc(4 * var(--width));
+		width: calc(4 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
-			top: var(--height);
+			background: var(--h-l1-color);
+			top: var(--h-l1-height);
 			@include box-shadow((
 			   (1, 1, 1, 1),
 			   (1, 0, 0, 0),
@@ -88,9 +88,9 @@
 		}
 	}
 	&G{
-		width: calc(5 * var(--width));
+		width: calc(5 * var(--h-l1-width));
 		&:before{
-			top: var(--height);
+			top: var(--h-l1-height);
 			@include box-shadow((
 			   (0, 1, 1, 1, 1),
 			   (1, 0, 0, 0, 0),
@@ -102,10 +102,10 @@
 		}
 	}
 	&H{
-		width: calc(5 * var(--width));
+		width: calc(5 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
-			top: var(--height);
+			background: var(--h-l1-color);
+			top: var(--h-l1-height);
 			@include box-shadow((
 			   (1, 0, 0, 0, 1),
 			   (1, 0, 0, 0, 1),
@@ -117,10 +117,10 @@
 		}
 	}
 	&I{
-		width: calc(1 * var(--width));
+		width: calc(1 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
-			top: var(--height);
+			background: var(--h-l1-color);
+			top: var(--h-l1-height);
 			@include box-shadow((
 			   (1),
 			   (1),
@@ -132,9 +132,9 @@
 		}
 	}
 	&J{
-		width: calc(3 * var(--width));
+		width: calc(3 * var(--h-l1-width));
 		&:before{
-			top: var(--height);
+			top: var(--h-l1-height);
 			@include box-shadow((
 			   (0, 0, 1),
 			   (0, 0, 1),
@@ -146,10 +146,10 @@
 		}
 	}
 	&K{
-		width: calc(4 * var(--width));
+		width: calc(4 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
-			top: var(--height);
+			background: var(--h-l1-color);
+			top: var(--h-l1-height);
 			@include box-shadow((
 			   (1, 0, 0, 1),
 			   (1, 0, 1, 0),
@@ -161,10 +161,10 @@
 		}
 	}
 	&L{
-		width: calc(3 * var(--width));
+		width: calc(3 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
-			top: var(--height);
+			background: var(--h-l1-color);
+			top: var(--h-l1-height);
 			@include box-shadow((
 			   (1, 0, 0),
 			   (1, 0, 0),
@@ -176,9 +176,9 @@
 		}
 	}
 	&M{
-		width: calc(7 * var(--width));
+		width: calc(7 * var(--h-l1-width));
 		&:before{
-			top: var(--height);
+			top: var(--h-l1-height);
 			@include box-shadow((
 			   (0, 1, 0, 0, 0, 1, 0),
 			   (0, 1, 0, 0, 0, 1, 0),
@@ -190,10 +190,10 @@
 		}
 	}
 	&N{
-		width: calc(4 * var(--width));
+		width: calc(4 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
-			top: var(--height);
+			background: var(--h-l1-color);
+			top: var(--h-l1-height);
 			@include box-shadow((
 			   (1, 0, 0, 1),
 			   (1, 1, 0, 1),
@@ -205,9 +205,9 @@
 		}
 	}
 	&O{
-		width: calc(5 * var(--width));
+		width: calc(5 * var(--h-l1-width));
 		&:before{
-			top: var(--height);
+			top: var(--h-l1-height);
 			@include box-shadow((
 			   (0, 1, 1, 1, 0),
 			   (1, 0, 0, 0, 1),
@@ -219,10 +219,10 @@
 		}
 	}
 	&P{
-		width: calc(4 * var(--width));
+		width: calc(4 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
-			top: var(--height);
+			background: var(--h-l1-color);
+			top: var(--h-l1-height);
 			@include box-shadow((
 			   (1, 1, 1, 0),
 			   (1, 0, 0, 1),
@@ -234,9 +234,9 @@
 		}
 	}
 	&Q{
-		width: calc(6 * var(--width));
+		width: calc(6 * var(--h-l1-width));
 		&:before{
-			top: var(--height);
+			top: var(--h-l1-height);
 			@include box-shadow((
 			   (0, 1, 1, 1, 0, 0),
 			   (1, 0, 0, 0, 1, 0),
@@ -249,10 +249,10 @@
 		}
 	}
 	&R{
-		width: calc(4 * var(--width));
+		width: calc(4 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
-			top: var(--height);
+			background: var(--h-l1-color);
+			top: var(--h-l1-height);
 			@include box-shadow((
 			   (1, 1, 1, 0),
 			   (1, 0, 0, 1),
@@ -264,9 +264,9 @@
 		}
 	}
 	&S{
-		width: calc(3 * var(--width));
+		width: calc(3 * var(--h-l1-width));
 		&:before{
-			top: var(--height);
+			top: var(--h-l1-height);
 			@include box-shadow((
 			   (0, 1, 1),
 			   (1, 0, 0),
@@ -278,10 +278,10 @@
 		}
 	}
 	&T{
-		width: calc(5 * var(--width));
+		width: calc(5 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
-			top: var(--height);
+			background: var(--h-l1-color);
+			top: var(--h-l1-height);
 			@include box-shadow((
 			   (1, 1, 1, 1, 1),
 			   (0, 0, 1, 0, 0),
@@ -293,10 +293,10 @@
 		}
 	}
 	&U{
-		width: calc(5 * var(--width));
+		width: calc(5 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
-			top: var(--height);
+			background: var(--h-l1-color);
+			top: var(--h-l1-height);
 			@include box-shadow((
 			   (1, 0, 0, 0, 1),
 			   (1, 0, 0, 0, 1),
@@ -308,10 +308,10 @@
 		}
 	}
 	&V{
-		width: calc(5 * var(--width));
+		width: calc(5 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
-			top: var(--height);
+			background: var(--h-l1-color);
+			top: var(--h-l1-height);
 			@include box-shadow((
 			   (1, 0, 0, 0, 1),
 			   (1, 0, 0, 0, 1),
@@ -323,10 +323,10 @@
 		}
 	}
 	&W{
-		width: calc(7 * var(--width));
+		width: calc(7 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
-			top: var(--height);
+			background: var(--h-l1-color);
+			top: var(--h-l1-height);
 			@include box-shadow((
 			   (1, 0, 0, 1, 0, 0, 1),
 			   (1, 0, 0, 1, 0, 0, 1),
@@ -338,10 +338,10 @@
 		}
 	}
 	&X{
-		width: calc(5 * var(--width));
+		width: calc(5 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
-			top: var(--height);
+			background: var(--h-l1-color);
+			top: var(--h-l1-height);
 			@include box-shadow((
 			   (1, 0, 0, 0, 1),
 			   (0, 1, 0, 1, 0),
@@ -353,10 +353,10 @@
 		}
 	}
 	&Y{
-		width: calc(5 * var(--width));
+		width: calc(5 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
-			top: var(--height);
+			background: var(--h-l1-color);
+			top: var(--h-l1-height);
 			@include box-shadow((
 			   (1, 0, 0, 0, 1),
 			   (0, 1, 0, 1, 0),
@@ -368,10 +368,10 @@
 		}
 	}
 	&Z{
-		width: calc(5 * var(--width));
+		width: calc(5 * var(--h-l1-width));
 		&:before{
-			background: var(--color);
-			top: var(--height);
+			background: var(--h-l1-color);
+			top: var(--h-l1-height);
 			@include box-shadow((
 			   (1, 1, 1, 1, 1),
 			   (0, 0, 0, 1, 0),
