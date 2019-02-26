@@ -1,5 +1,7 @@
 # Half-Life Console CSS Font
 
+<img alt="Font specimen" src="https://github.com/NicolasHeine/Half-Life-Console-Fonts-CSS/blob/master/img/fonts.jpg?raw=true" />
+
 > A CSS project by [Nicolas Heine](http:www.nicolasheine.fr)
 
 I ❤️ CSS, you can follow me on [Codepen](https://codepen.io/nicolasheine/)
@@ -19,6 +21,7 @@ I ❤️ CSS, you can follow me on [Codepen](https://codepen.io/nicolasheine/)
   * [Line spacing](#line-height)
   * [Align text](#align-text)
 * [Accessibility](#accessibility) - Don't forget it
+* [TODO List](#todo)
 
 ## Overview
 
@@ -62,29 +65,29 @@ Download the minify version of CSS of the font you want from the repo:
 </div>
 ```
 
-> If you want to use the font 2, just replace 'h-l1' by 'h-l2'
+> If you want to use the font 2, just replace `h-l1` by `h-l2`.
 
 ## Quick start with Javascript
 
-Download the minify version of CSS (like we saw [before](#quick-start---jsless)) + download the minify version of Javascript
+Download the minify version of CSS (like we saw [before](#quick-start---jsless)) + download the minify version of Javascript:
 * [`/dist/js/`](https://github.com/NicolasHeine/Half-Life-Console-Fonts-CSS/tree/master/dist/js)
 
 > Like for the CSS, choose the font you want!
 
 ### How to use
 
-Use the main class of the font to choose which text should be transform
+Use the main class of the font to choose which text should be transform:
 ```html
 <div class="h-l1">Hello World!</div>
 ```
 
-The script will automaticly transform it like we saw [before](#quick-start---jsless)
+The script will automaticly transform it like we saw [before](#quick-start---jsless).
 
 ## Options
 
-Each fonts have multiple settings
+Each fonts have multiple settings.
 
-> You can change the prefix from `h-l1` to `h-l2` for the second font
+> You can change the prefix from `h-l1` to `h-l2` for the second font.
 
 ### Colors
 ```
@@ -97,7 +100,7 @@ Each fonts have multiple settings
 --h-l1-width: 5px;
 ```
 
-> This is the size of 1 tile of background-shadow
+> This is the size of 1 tile of background-shadow.
 
 ### Word spacing
 ```
@@ -117,7 +120,7 @@ Each fonts have multiple settings
 ### Align text
 You can use `text-align` for left/center/right.
 
-There is some class to help you if you want
+There is some class to help you:
 ```
 <div class="h-l1 h-l1--left">
   <span class="h-l1__word">...</span>
@@ -142,4 +145,10 @@ Accessibility is important, you always need a good SEO or a good screen reader s
 When you use these CSS fonts, please don't forget to add the accessible class to your text
 ```
 <span class="h-l1__accessible">I am readable!</span>
-``` 
+```
+
+## TODO
+- [ ] Add old browser support
+- [ ] Add second color for the inner of second font
+- [ ] Add Javascript function to update text dynamically
+- [ ] Add other font-size (or use em)
