@@ -8,9 +8,9 @@ Array.prototype.forEach.call(document.getElementsByClassName("h-l1"), function(e
 			var letters = words[word].split('');
 			for(letter in letters){
 				if(letters[letter] === '"'){
-					result += "<b class='h-l1:"+letters[letter]+"'>"+letters[letter]+"</b>";
+					result += "<b class='h-l1:"+letters[letter]+"'></b>";
 				}else{
-					result += '<b class="h-l1:'+letters[letter]+'">'+letters[letter]+'</b>';
+					result += '<b class="h-l1:'+letters[letter]+'"></b>';
 				}
 			}
 			result += '</span>';
