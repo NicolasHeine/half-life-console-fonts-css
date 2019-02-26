@@ -7,9 +7,9 @@
 	--line-space: calc(3 * var(--height))
 }
 
-[class^="h-l2:"]{
+[class^="h-l1:"]{
 	display: inline-block;
-	height: calc(9 * var(--height));
+	height: calc(7 * var(--height));
 	margin-bottom: var(--line-space);
 	position: relative;
 	&:before{
@@ -26,7 +26,7 @@
 }
 
 
-.h-l2{
+.h-l1{
 	font-size: 0;
 	line-height: 0;
 	&__word{
