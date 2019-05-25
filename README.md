@@ -110,14 +110,14 @@ You can also change the inner color for the 2nd font:
 
 There is 7 differents sizes available, you can change the size by using one of these classes:
 
-```
-.h-l1--xxs (1w - 1h)
-.h-l1--xs (2w - 2h)
-.h-l1--s (3w - 3h)
-.h-l1--m (4w - 4h) Default
-.h-l1--l (5w - 6h)
-.h-l1--xl (5w - 7h)
-.h-l1--xxl (5w - 8h)
+```css
+.h-l1--xxs /* (1w - 1h) */
+.h-l1--xs /* (2w - 2h) */
+.h-l1--s /* (3w - 3h) */
+.h-l1--m /* (4w - 4h) Default */
+.h-l1--l /* (5w - 6h) */
+.h-l1--xl /* (5w - 7h) */
+.h-l1--xxl /* (5w - 8h) */
 ```
 
 ### Word spacing
@@ -139,7 +139,7 @@ There is 7 differents sizes available, you can change the size by using one of t
 You can use `text-align` for left/center/right.
 
 There is some class to help you:
-```
+```html
 <div class="h-l1 h-l1--left">
   <span class="h-l1__word">...</span>
 </div>
@@ -160,8 +160,8 @@ There is some class to help you:
 
 Accessibility is important, you always need a good SEO or a good screen reader support.
 
-When you use these CSS fonts, please don't forget to add the accessible class to your text
-```
+When you use these CSS fonts, please don't forget to add the accessible class to your text:
+```html
 <span class="h-l1__accessible">I am readable!</span>
 ```
 
