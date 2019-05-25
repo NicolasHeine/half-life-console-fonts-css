@@ -96,11 +96,23 @@ Each fonts have multiple settings.
 
 ### Dimensions
 ```
---h-l1-height: 8px;
---h-l1-width: 5px;
+--h-l1-height: 4px;
+--h-l1-width: 4px;
 ```
 
 > This is the size of 1 tile of background-shadow.
+
+There is 7 differents sizes available, you can change the size by using one of these classes:
+
+```
+.h-l1--xxs (1w - 1h)
+.h-l1--xs (2w - 2h)
+.h-l1--s (3w - 3h)
+.h-l1--m (4w - 4h) Default
+.h-l1--l (5w - 6h)
+.h-l1--xl (5w - 7h)
+.h-l1--xxl (5w - 8h)
+```
 
 ### Word spacing
 ```
@@ -152,3 +164,4 @@ When you use these CSS fonts, please don't forget to add the accessible class to
 - [ ] Add second color for the inner of second font
 - [ ] Add Javascript function to update text dynamically
 - [ ] Add other font-size (or use em)
+- [ ] Add specials characters

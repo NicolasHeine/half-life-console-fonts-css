@@ -1,7 +1,7 @@
 :root{
 	--h-l1-color: black;
-	--h-l1-height: 8px;
-	--h-l1-width: 5px;
+	--h-l1-height: 4px;
+	--h-l1-width: 4px;
 	--h-l1-word-spacing: calc(2 * var(--h-l1-width));
 	--h-l1-letter-spacing: calc(var(--h-l1-width) / 2);
 	--h-l1-line-space: calc(3 * var(--h-l1-height));
@@ -40,7 +40,7 @@
 	&__accessible{
 	    background: #000;
 	    border: 0;
-		clip: rect(1px,1px,1px,1px);
+			clip: rect(1px,1px,1px,1px);
 	    -webkit-clip-path: inset(1px);
 	    clip-path: inset(1px);
 	    color: #fff;
@@ -53,6 +53,45 @@
 	    position: absolute;
 	    white-space: nowrap;
 	    width: 1px;
+	}
+	&--xxs{
+		--h-l1-height: 1px;
+		--h-l1-width: 1px;
+	}
+	&--xs{
+		--h-l1-height: 2px;
+		--h-l1-width: 2px;
+	}
+	&--s{
+		--h-l1-height: 3px;
+		--h-l1-width: 3px;
+	}
+	&--m{
+		--h-l1-height: 4px;
+		--h-l1-width: 4px;
+	}
+	&--l{
+		--h-l1-height: 6px;
+		--h-l1-width: 5px;
+	}
+	&--xl{
+		--h-l1-height: 7px;
+		--h-l1-width: 5px;
+	}
+	&--xxl{
+		--h-l1-height: 8px;
+		--h-l1-width: 5px;
+	}
+	&--xxs,
+	&--xs,
+	&--s,
+	&--m,
+	&--l,
+	&--xl,
+	&--xxl{
+		--h-l1-word-spacing: calc(2 * var(--h-l1-width));
+		--h-l1-letter-spacing: calc(var(--h-l1-width) / 2);
+		--h-l1-line-space: calc(3 * var(--h-l1-height));
 	}
 	&--left{
 		text-align: left;
