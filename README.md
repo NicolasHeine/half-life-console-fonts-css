@@ -94,6 +94,12 @@ Each fonts have multiple settings.
 --h-l1-color: black;
 ```
 
+You can also change the inner color for the 2nd font:
+
+```
+--h-l2-color-in: white;
+```
+
 ### Dimensions
 ```
 --h-l1-height: 4px;
@@ -161,7 +167,7 @@ When you use these CSS fonts, please don't forget to add the accessible class to
 
 ## TODO
 - [ ] Add old browser support
-- [ ] Add second color for the inner of second font
+- [ ] Add specials characters
+- [x] Add second color for the inner of second font
 - [ ] Add Javascript function to update text dynamically
 - [x] Add other font-size (or use em)
-- [ ] Add specials characters

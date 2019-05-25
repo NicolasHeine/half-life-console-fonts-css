@@ -5,6 +5,9 @@
 			@if nth(nth($matrice, $h), $w) == 1{
 				$val: #{$val}, calc(#{$w - 1} * var(--h-l2-width)) calc(#{$h - 1} * var(--h-l2-height)) var(--h-l2-color);
 			}
+			@if nth(nth($matrice, $h), $w) == 2{
+				$val: #{$val}, calc(#{$w - 1} * var(--h-l2-width)) calc(#{$h - 1} * var(--h-l2-height)) var(--h-l2-color-in);
+			}
 		}
 	}
 	@return $val;
