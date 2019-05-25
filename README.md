@@ -81,7 +81,12 @@ Use the main class of the font to choose which text should be transform:
 <div class="h-l1">Hello World!</div>
 ```
 
-The script will automaticly transform it like we saw [before](#quick-start---jsless).
+The script will automaticly transform it like we saw [before](#quick-start---jsless).  
+
+You can also use the javascript function below to generate it manually from an HTML Element:
+```Javascript
+text_to_h_l1(el) // el instanceof Element
+```
 
 ## Options
 
@@ -169,5 +174,5 @@ When you use these CSS fonts, please don't forget to add the accessible class to
 - [ ] Add old browser support
 - [ ] Add specials characters
 - [x] Add second color for the inner of second font
-- [ ] Add Javascript function to update text dynamically
+- [x] Add Javascript function to update text dynamically
 - [x] Add other font-size (or use em)
