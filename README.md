@@ -163,5 +163,5 @@ When you use these CSS fonts, please don't forget to add the accessible class to
 - [ ] Add old browser support
 - [ ] Add second color for the inner of second font
 - [ ] Add Javascript function to update text dynamically
-- [ ] Add other font-size (or use em)
+- [x] Add other font-size (or use em)
 - [ ] Add specials characters
